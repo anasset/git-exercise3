@@ -1,0 +1,13 @@
+  232  git init
+  233  touch index.html
+  233  touch index.js
+  234  git add index.html 
+  235  git add index.html 
+  236  touch index.css
+  237  git add index.css
+  238  git commit -m "Add index.html and index.css"
+  239  git status
+  240  git add index.js
+  241  git commit -m "Add index.js"
+  242  git remote add origin git@github.com:anasset/git-exercise3.git
+  243  git push -u origin main
